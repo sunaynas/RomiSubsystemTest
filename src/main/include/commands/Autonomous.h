@@ -13,10 +13,14 @@ class FirstAuto
  public:
  FirstAuto(Drivetrain *drive) {
     AddCommands(
-        Drive (0.5, 5_in, drive),
-        Turner(180, drive),
-        Drive (0.5, 5_in, drive),
-        Turner(180, drive)
+        Drive (0.5, 10_in, drive),
+        Turner(88, drive),
+        Drive (0.5, 10_in, drive),
+        Turner(88, drive),
+        Drive (0.5, 10_in, drive),
+        Turner(88, drive),
+        Drive (0.5, 10_in, drive),
+        Turner(88, drive)
     );
   }
 };
